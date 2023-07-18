@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Job Juan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+      <h1>Jobs</h1>
+    
+      <div id="job-listings">
+        <div class="job-listing">
+          <h2 class="job-title">Front-end Developer</h2>
+          <p class="job-company">ABC Company</p>
+          <p class="job-location">New York, NY</p>
+          <p class="job-description">We are looking for a talented front-end developer to join our team...</p>
+        </div>
+  
+        <div class="job-listing">
+          <h2 class="job-title">Graphic Designer</h2>
+          <p class="job-company">XYZ Agency</p>
+          <p class="job-location">Los Angeles, CA</p>
+          <p class="job-description">We are seeking a creative graphic designer with experience in print and digital media...</p>
+        </div>
+      </div>
+  </ion-card>
+  
+    <ion-button expand="block" aria-label="Favorite" routerLink="/job-listings">
+      <ion-icon name="add-circle-outline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  
+  
+</ion-content>

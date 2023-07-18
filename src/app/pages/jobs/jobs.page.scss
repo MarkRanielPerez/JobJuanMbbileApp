@@ -1,0 +1,54 @@
+ion-header {
+    --background: transparent; // Set the header background as transparent
+}
+
+ion-content {
+    --padding-start: 20px; // Add left padding to the content area
+    --padding-end: 20px; // Add right padding to the content area
+}
+
+ion-card {
+    padding: 1rem;
+
+    h1 {
+      margin-bottom: 20px; // Add bottom margin to the heading
+    }
+
+    #job-listings {
+    .job-listing {
+        margin-bottom: 20px; // Add bottom margin to each job listing
+
+        h2.job-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        }
+
+        p {
+        margin-bottom: 5px;
+        }
+
+        p.job-company {
+        font-weight: bold;
+        }
+    }
+    }
+}
+
+ion-button {
+    margin-top: 20px; // Add top margin to the button
+    align-items: right;
+}
+
+
+.add {
+    margin-top: 16px; // Example margin top for the "add" section
+
+}
+
+img {
+    width: 34px; // Example image width
+    height: 34px; // Example image height
+}
+
+

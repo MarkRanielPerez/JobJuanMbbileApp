@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Job Juan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="custom-background">
+    <ion-card>
+      <!-- Registration Form -->
+        <h1>Job Listings</h1>
+      
+        <form>
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" name="job-title" required>
+      
+          <label for="job-company">Company</label>
+          <input type="text" id="job-company" name="job-company" required>
+      
+          <label for="job-location">Location</label>
+          <input type="text" id="job-location" name="job-location" required>
+      
+          <label for="job-description">Description</label>
+          <textarea id="job-description" name="job-description" required></textarea>
+      
+          <input type="submit" value="Post Job" routerLink="/jobs">
+        </form>
+      
+    </ion-card>
+<ion-button expand="block" class="button" routerLink="/dashboard">Back</ion-button>
+
+</ion-content>
+

@@ -1,0 +1,46 @@
+ion-header {
+    ion-toolbar {
+    ion-title {
+        font-size: 1.5rem;
+        color: #333;
+    }
+    }
+}
+
+ion-content {
+    .jobs,
+    .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ion-card {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img {
+        width: 80px;
+        height: 80px;
+        }
+
+        ion-label {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: #333;
+        }
+    }
+    }
+
+    .jobs {
+    background-color: #f2f2f2;
+    }
+
+    .logout {
+    background-color: #ececec;
+    }
+}

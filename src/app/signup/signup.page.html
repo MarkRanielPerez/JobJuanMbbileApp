@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Job Juan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-label>
+      Register Here!
+    </ion-label>
+      <!-- Registration Form -->
+      <ion-list>
+        <label>First Name:</label>
+        <input type="text" placeholder="Juan">
+        <label>Last Name:</label>
+        <input type="text" placeholder="Dela Cruz">
+        <label>Email ID:</label>
+        <input type="email" placeholder="juandelacruz@gmail.com">
+        <label>Contact Number:</label>
+        <input type="text" placeholder="0912-345-6789">
+        <label>Password:</label>
+        <input type="password" placeholder="">
+        <input type="submit" class="btn" value="Done" routerLink="/home">
+
+        <ion-text>
+          Forgot Password?
+        </ion-text>
+
+      </ion-list>
+      
+      <ion-label class="sign-in">
+        Don’t have an account?  <a routerLink="/login">Sign In</a>
+      </ion-label>
+    </ion-card>
+</ion-content>

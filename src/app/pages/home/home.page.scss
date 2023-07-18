@@ -1,0 +1,56 @@
+// Styling for ion-header
+ion-header {
+    --background: transparent; // Sets the background color to transparent
+    --border-color: transparent; // Sets the border color to transparent
+}
+
+  // Styling for ion-toolbar
+ion-toolbar {
+    --background: #ffffff; // Sets the background color to white
+    --color: #000000; // Sets the text color to black
+}
+
+  // Styling for ion-title
+ion-title {
+    font-size: 1.5rem; // Sets the font size to 1.5rem
+}
+
+  // Styling for ion-content
+ion-content {
+    --background: url('../../../assets/San\ JUan\ Batangas.jpg') no-repeat center center fixed; // Sets the background color to Pamahalaang Bayan ng San Juan
+    background-size: cover;
+    height: 100%;
+}
+
+  // Styling for the login container
+.login {
+    display: flex; // Displays the login container as a flex container
+    justify-content: center; // Centers the content horizontally
+    align-items: center; // Centers the content vertically
+    height: 140vh; // Sets the height of the container to 100% of the viewport height
+}
+
+  // Styling for ion-card
+ion-card {
+    display: flex; // Displays the ion-card as a flex container
+    flex-direction: column; // Arranges the content in a column layout
+    align-items: center; // Centers the content horizontally
+    padding: 16px; // Adds padding around the content
+    background-color: #f0f0f0; // Sets the background color to light gray
+    border-radius: 8px; // Adds rounded corners to the card
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Adds a subtle box shadow
+}
+
+  // Styling for the card image
+ion-card img {
+    width: 100px; // Sets the width of the image
+    height: 100px; // Sets the height of the image
+}
+
+  // Styling for the card label
+ion-card ion-label {
+    margin-top: 8px; // Adds spacing above the label
+    font-size: 1rem; // Sets the font size to 1rem
+}
+
+
